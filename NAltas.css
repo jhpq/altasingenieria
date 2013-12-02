@@ -1,0 +1,51 @@
+/* 
+    Document   : NAltas
+    Created on : 5/11/2013, 10:48:26 AM
+    Author     : josepereyra
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{ 
+    background-color: #563d7c;
+}
+#jumbotron1{
+    background-color: transparent;
+    color:white;
+    background-image: url('banner2.png');
+    background-repeat:no-repeat;
+    background-position:center; 
+
+}
+
+h1{
+    text-align: center;
+    color:white;
+}
+
+.panel-heading{
+    background-color: #463265;
+    color:white;
+}
+.panel{
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: white;
+    color:white;
+}
+
+#navBarSolicitud{
+    background-color: transparent;
+
+}
+
+.span3 {  
+    height: 170px;
+    overflow: scroll;
+    
+}​
+

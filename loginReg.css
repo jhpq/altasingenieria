@@ -1,0 +1,76 @@
+/* 
+    Document   : loginReg
+    Created on : 14/07/2013, 09:17:43 PM
+    Author     : josepereyra
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700);
+root { 
+    display: block;
+}
+
+body{
+    width:90%;
+    margin:auto;
+    min-width:50px;
+    max-width:2000px;
+    min-height: 50px;
+    max-height: 1750px;
+    background-color:white;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+#login{
+    width:36%;
+    height:50%;
+    border-style: ridge;
+    border-color:#67d7f7;
+    float:left;
+}
+
+#login input[type="submit"]{
+    width:25%;
+    height:10%;
+}
+
+#registrar{
+    width:45%;
+    height:50%;
+    border-style: ridge;
+    border-color:#e09b41;
+    float:right;
+}
+
+#registrar input[type="submit"]{
+    width:25%;
+    height:10%;
+    
+}
+
+#formulario{
+    width:70%;
+    height:100%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:10%;
+}
+
+.formslog{
+    margin-left: auto;
+    margin-right:auto;
+    width:50%;
+    height:60%;
+    font-size:80%;
+        
+}
+
+h2{
+    text-align: center;
+}
+
+.formslog input[type=text]{
+    width:80%;
+    height:10%;
+}
+
