@@ -81,7 +81,7 @@
                                                     </thead>
                                                     <tbody>
                                                         <?php
-                                                        $results = mysql_query("SELECT * FROM registroid");
+                                                        $results = mysql_query("SELECT * FROM ");
                                                         while ($row = mysql_fetch_array($results)) {
                                                             ?>
                                                             <tr>
@@ -99,7 +99,7 @@
                                             </div>
                                             <br>
                                             <form>
-                                                <button type="submit" class="btn btn-danger btn-xs navbar-right">Remover</button>
+                                                <button type="submit" name="remover" id="remover" class="btn btn-danger btn-xs navbar-right">Remover</button>
                                             </form>
                                         </div>
                                         <form method="POST">
@@ -121,7 +121,7 @@
                                                 <div class="col-sm-5">
                                                     <select class="form-control" id="selectMateria"></select>
                                                 </div>
-                                                <label for="selectPlan" class="col-sm-1 control-label">Tipo</label>
+                                                <label for="selectTipo" class="col-sm-1 control-label">Tipo</label>
                                                 <div class="col-sm-5">
                                                     <select class="form-control" id="selectTipo"></select>
                                                 </div>
@@ -130,10 +130,10 @@
                                                 <br>
                                                 <label for="inputGrupo" class="col-sm-1 control-label">Grupo</label>
                                                 <div class="col-sm-5">
-                                                    <input type="text" class="form-control" id="inputgrupo" placeholder="Grupo"/>
+                                                    <input type="text" class="form-control" id="inputGrupo" placeholder="Grupo"/>
                                                 </div>
                                                 <div class="col-sm-3 col-md-offset-2">
-                                                    <input type="submit" class="form-control" id="enviar" value="Enviar"/>
+                                                    <input type="submit" class="form-control" id="enviar" value="Enviar" onClick="anadirMovimiento()"/>
                                                 </div>
                                             </div>
                                         </form>
@@ -147,6 +147,7 @@
                                         ================================================== -->
                                         <!-- Placed at the end of the document so the pages load faster -->
                                         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+                                        <script src="AnadirEliminarMovimiento.js"></script>
                                         <script src="dist/js/bootstrap.min.js"></script>
                                         <script src="/docs-assets/js/holder.js"></script>
                                         <script src="jquery-1.10.2.js" type="text/javascript"></script>
